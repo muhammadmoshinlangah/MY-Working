@@ -1,0 +1,81 @@
+1.{{{For table}}}
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Table Example</title>
+    <link rel="stylesheet" href="">
+    <style>
+        table {
+            background-color: none;
+            width: 50%;
+        }
+
+        table th {
+            background-color: aquamarine;
+        }
+
+        table td {
+            background-color: grey;
+            color: white;
+
+        }
+
+        table tr {
+            border: 2px solid black;
+        }
+
+        .main-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-container table tr td{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Information</h2>
+    <div class="main-container">
+
+
+
+        <table border="" cellpadding="10">
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Marks</th>
+                <th> Total Marks</th>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>10th</td>
+                <td>85</td>
+                <td>85/100</td>
+            </tr>
+            <tr>
+                <td>Fatima</td>
+                <td>9th</td>
+                <td>90</td>
+                <td>85/100</td>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>10th</td>
+                <td>78</td>
+                <td>85/100</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>
